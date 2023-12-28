@@ -13,6 +13,7 @@
 .header{
     display: flex;
     justify-content: space-evenly;
+    padding: 15px 10px 30px 10px;
 }
 .header-content h1{
     font-size: 45px;
@@ -53,3 +54,147 @@
 }
 
 /* Header Section End */
+
+
+/* About-Me Section Start */
+
+.about-me{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(./images/shapes/7.png);
+    padding: 80px 50px 0 50px;
+}
+
+.about-me .img img{
+    height: 400px;
+}
+
+.about-me .content h1{
+    font-size: 40px;
+    color: grey;
+    margin-top: 60px;
+}
+
+.about-me .content p{
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    margin: 35px 0 40px 0;
+}
+
+.about-me .content button{
+    color: aliceblue;
+    background-image: linear-gradient(to left, red, orange);
+    font-size: 15px;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    width: 140px;
+    height: 50px;
+}
+
+/* About-Me Section End */
+
+/* <!-- My-Recipies Section Start --> */
+
+.my-recipies{
+    padding: 5px 0 30px 0;
+    background-color: rgb(227, 248, 247);
+}
+
+.my-recipies .content{
+    text-align: center;
+}
+.my-recipies .content h1{
+    font-size: 40px;
+    color: gray;
+    margin-top: 50px;
+}
+
+.my-recipies .content p{
+    font-size: 15px;
+    margin: 20px 0 60px 0;
+    color: rgb(56, 54, 54);
+    font-weight: 200;
+}
+
+.my-recipies .card{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.my-recipies .card img{
+    width: 500px;
+    height:280px;
+}
+
+.my-recipies .card .card-1{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 4px 10px rgb(146, 140, 140) ;
+    padding: 20px;
+    border-radius: 30px;
+}
+.my-recipies .card .card-2{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 4px 10px rgb(146, 140, 140) ;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.my-recipies .card h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+}
+
+.my-recipies .card p{
+    line-height: 23px;
+    font-size: 15px;
+    padding: 0 0 15px 0;
+}
+
+.my-recipies .subscribe-part{
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.my-recipies .subscribe-part .subs{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 0 50px 0;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 4px 10px rgb(146, 140, 140) ;
+    padding: 60px 0 60px 0;
+    border-radius: 30px;
+}
+
+.my-recipies ,.subscribe-part h1{
+    font-size: 60px;
+}
+
+.my-recipies ,.subscribe-part p{
+    font-size: 15px;
+}
+
+/* <!-- My-Recipies Section End --> */
+
+/* Footer Section Strat  */
+footer{
+    background-color: rgb(41, 39, 39);
+    text-align: center;
+    padding: 80px 0;
+}
+footer h1{
+    color: grey;
+}
+
+footer h1>span{
+    color: rgb(247, 98, 39);
+}
+
+footer p{
+    color: whitesmoke;
+    margin-top: 25px;
+    
+}
+/* Footer Section END  */
